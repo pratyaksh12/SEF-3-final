@@ -1,8 +1,8 @@
-public class Bank {
+public class PaymentGateway {
     private CardDetail card = null;
 
     //add card details
-    public Bank(CardDetail card){
+    public PaymentGateway(CardDetail card){
         if(card == null){
             throw new IllegalArgumentException("Card cannot be null");
         }
